@@ -1,0 +1,11 @@
+{
+  "payload_type": "reverse_shell",
+  "output_name": "backdoor.py",
+  "lhost": "192.168.1.10",
+  "lport": 4444,
+  "os_target": "windows",
+  "obfuscate": true,
+  "xor_key": "nul1netX",
+  "encrypt": true,
+  "fernet_key": "Z3VuczZmb3JleGFtcGxlY29kZWtleTEyMw=="  // base64 key
+}
